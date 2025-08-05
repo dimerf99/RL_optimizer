@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Build & packaging
+build/
+dist/
+downloads/
+*.egg-info/
+*.egg
+*.whl
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests & coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+.vs/
+.spyproject
+.ropeproject
+
+# Type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Outputs & generated data
+saved_models/
+trajectories/
+img/
+*.png
+*.csv
+*.eps
+
+# Ignore temporary configs
+*.pylintrc
