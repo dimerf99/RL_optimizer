@@ -8,7 +8,7 @@ The goal is to improve convergence and efficiency of solving differential equati
 
 ### Modular Design – Clear separation of RL components:
 
-- **wrapper.py** – RL training workflow and integration with TEDEouS solver.
+- **wrapper.py** – RL training workflow and integration with TEDEouS solver (https://github.com/ITMO-NSS-team/torch_DE_solver).
 
 - **algorithm.py** - RL algorithm (DQN-based agent)
 
