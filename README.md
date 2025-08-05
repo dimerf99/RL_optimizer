@@ -12,13 +12,13 @@ The goal is to improve convergence and efficiency of solving differential equati
 
 - **algorithm.py** - RL algorithm (DQN-based agent)
 
-- **environment.py** – RL environment for optimizer selection.
+- **environment.py** – RL environment for optimizer selection. RL environment contains several components:
 
-- - **state_builder.py** – Construction of environment state from PINN trajectories, AutoEncoder, and loss landscape.
+  - **state_builder.py** – Construction of environment state from PINN trajectories, AutoEncoder, and loss landscape.
 
-- - **reward_calculator.py** – Multiple reward strategies (absolute, diff, balanced, curiosity, stagnation penalty).
+  - **reward_calculator.py** – Multiple reward strategies (absolute, diff, balanced, curiosity, stagnation penalty).
 
-- - **termination_checker.py** – Flexible done-condition evaluation.
+  - **termination_checker.py** – Flexible done-condition evaluation.
 
 ### Plug-and-Play architecture – Easy to extend with new:
 
